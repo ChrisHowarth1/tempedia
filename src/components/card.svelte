@@ -41,12 +41,20 @@
   
 <style>
   .card__container {
-    width: 30%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-bottom: 20px; 
+    margin: 0 10px 20px 10px;
     padding: 5px;
+    max-width: 350px;
+
+  }
+
+  @media only screen and (min-width: 768px) {
+    .card__container {
+      width: 50%;
+    }
   }
   
   .card {
