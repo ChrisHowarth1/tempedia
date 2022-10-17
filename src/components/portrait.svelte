@@ -36,7 +36,6 @@
         display: flex;
         justify-content: center;
         max-height: 200px;
-        width: max-content;
         align-self: center; 
     }
 </style>
